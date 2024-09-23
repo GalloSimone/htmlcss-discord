@@ -24,11 +24,13 @@
     align-items: center;
     background-color: rgb(37 94 233);
     padding: 10px;
+    
 }
 .login{
-background-color: white;
-border-radius: 5px;
-margin-right: 100px;
+border-radius: 20px;
+margin-right: 150px;
+padding: 5px;
+width: 70px;
 }
 .logo{
     margin-left: 200px;
@@ -38,7 +40,7 @@ margin-right: 100px;
     margin: 0 10px;
     text-decoration: none;
     color: black;
-   margin-right: 10px;
+
     
 }
 ul{
@@ -48,10 +50,13 @@ ul{
     padding-bottom: 4px;
     padding-left: 129px;
     padding-right: 129px;
+    margin-right: 150px;
 }
 li{
     display: inline-block;
     color: white;
+    padding-right: 15px;
+
 }
 .section1, .section2, .section3, .section4, .section5, .section6 {
     display: flex;
