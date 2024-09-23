@@ -43,7 +43,7 @@ width: 70px;
 
     
 }
-ul{
+.list-first{
     list-style-type: none;
     display: inline;
     padding-top: 4px;
@@ -52,7 +52,7 @@ ul{
     padding-right: 129px;
     margin-right: 150px;
 }
-li{
+.list-item-first{
     display: inline-block;
     color: white;
     padding-right: 15px;
@@ -187,10 +187,11 @@ width:548px;
 }
 
  .green-box {
-    background-color: green;
     width: 60%;
-    height: 300px;
-    border: dashed black 2px;
+    height: 520px;
+    background-image:url(../img/item4-big.svg) ;
+    background-size: contain;
+    margin-top: 30px;
 }
 
 .section6 {
@@ -200,15 +201,26 @@ width:548px;
 .section6 .red-box {
     width: 25%;
     height: 450px;
-    background-color: #f18d75;
-    border: dashed black 2px,;
+    background-color: #23272a;
+    display: inline-block;
+
+
 }
+
 
 .section6 .turquoise-box {
     width: 9%;
     height: 450px;
-    background-color: #4dd3c9;
-    border: dashed rgb(255, 255, 255) 2px,;
+    background-color: #23272a;
+    
+}
+.footer{
+    color: blue;
+    list-style-type: none;
+}
+.list-item-second{
+    color: white;
+    padding: 5px;
 }
 hr{
     margin-bottom: 10px;
@@ -216,19 +228,16 @@ hr{
 footer {
     display: flex;
   justify-content: space-between;
-    background-color: #7cc3be;
+    background-color: #23272a;
     padding: 10px;
     align-items: center;
 }
 
 footer .footer-logo {
     font-size: 18px;
-    border: dashed black 2px;
-    background-color: #f18d75;
+   
 }
 
-footer .footer-text {
-    font-size: 18px;
-    border: dashed black 2px;
-    background-color: #f18d75;
+.footer-text{
+    border-radius: 20px;
 }
