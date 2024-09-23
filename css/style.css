@@ -107,30 +107,35 @@ background-color: white;
     flex-direction: column;
    
 }
-.section2, .section3, .section4 {
+.section2, .section4 {
     background-color: #f1f1f1;
     padding: 100px;
+}
+.section3{
+    padding: 60px;
+    
 }
 .section2 .blue-box{
    background-image:url(../img/item1.svg);
    background-size: 534px;
-padding-bottom: 300px;
-height: 350px;
-width: 550px;
-padding-right: 200px;
-
+padding-bottom:300px;
+height:350px;
+width:550px;
+padding-right:200px;
 }
+
 .section2 .pink-box{
     height: 350px;
     width: 500px;
 }
- .section3 .blue-box, .section4 .blue-box {
-    width: 60%;
-    height: 260px;
-    background-color: #4da8f0;
-    border: dashed black 2px,;
-    margin-left: 300px;
+.titolo2{
+    font-size: 45px;
+    font-weight: 50px;
 }
+.paragrafo2{
+    margin-top: 30px;
+}
+
 
  .section4 .pink-box {
     width: 40%;
@@ -139,22 +144,23 @@ padding-right: 200px;
     border: dashed black 2px,;
     margin-right: 300px;
 }
+.section4 .blue-box{
+
+}
 .section3 .pink-box{
     width: 60%;
     height: 260px;
-    background-color: #f5a6d7;
-    border: dashed black 2px ;
-    margin-left: 300px;
-    
+    padding-top: 40px;
+    height: 350px;
+    width: 500px;
+    font-size: 25px;
 
 }
 .section3 .blue-box{
     width: 40%;
     height: 260px;
-    background-color: #4da8f0;
-    border: dashed black 2px;
-    margin-right: 300px;
-    margin-left: 0;
+    background-image: url(../img/item2.svg);
+    background-size: 373px;
 }
 
 .section3 {
