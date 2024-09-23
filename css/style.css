@@ -22,27 +22,28 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #d3a134;
+    background-color: rgb(37 94 233);
+    padding: 10px;
 }
-
-.navbar .logo, .navbar .login {
-    font-size: 24px;
-    border: dashed black 2px ,;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 250px;
-    padding-right: 250px;
-   }
+.login{
+background-color: white;
+border-radius: 5px;
+margin-right: 100px;
+}
+.logo{
+    margin-left: 200px;
+}
 
 .navbar .links a {
     margin: 0 10px;
     text-decoration: none;
     color: black;
+   margin-right: 10px;
+    
 }
 ul{
     list-style-type: none;
     display: inline;
-    border: dashed black 3px;
     padding-top: 4px;
     padding-bottom: 4px;
     padding-left: 129px;
@@ -50,6 +51,7 @@ ul{
 }
 li{
     display: inline-block;
+    color: white;
 }
 .section1, .section2, .section3, .section4, .section5, .section6 {
     display: flex;
@@ -59,6 +61,7 @@ li{
 }
 .section1 {
     background-color: #001372;
+   
 }
 
 .section1 .pink-box {
@@ -130,7 +133,7 @@ li{
 }
 
 .section6 .turquoise-box {
-    width: 8%;
+    width: 9%;
     height: 450px;
     background-color: #4dd3c9;
     border: dashed rgb(255, 255, 255) 2px,;
