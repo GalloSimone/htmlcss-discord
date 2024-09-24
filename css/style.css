@@ -217,6 +217,7 @@ width:548px;
 .footer{
     color: blue;
     list-style-type: none;
+    padding-top: 25px;
 }
 .list-item-second{
     color: white;
